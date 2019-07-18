@@ -1,0 +1,10 @@
+<div class="main">
+        <a href="#" [routerLink]="['']">Home</a>
+        <h3>Edit this author:</h3>
+        <form (submit)="onEdit()">
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+            <button class="btn btn-secondary" [routerLink]="['']">Cancel</button>
+            <button class="btn btn-secondary">Submit</button>
+        </form>
+    </div>
